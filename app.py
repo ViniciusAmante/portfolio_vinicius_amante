@@ -20,11 +20,11 @@ def habilidades():
 
 @app.route('/documentos')
 def documentos():
-    return render_template('documentos.html')
+    return render_template('docs.html')
 
 @app.route('/certificacoes')
 def certificacoes():
-    return render_template('certificacoes.html')
+    return render_template('certificados.html')
 
 @app.route('/contato')
 def contato():
