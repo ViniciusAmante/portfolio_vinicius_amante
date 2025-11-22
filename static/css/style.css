@@ -96,8 +96,8 @@ section {
     transform: translateY(-2px);
 }
 .btn-clean-outline {
-    color: #4d0dfd;
-    border: 1px solid #4d0dfd;
+    color: #a17fff;
+    border: 1px solid #a17fff;
 }
 .btn-clean-outline:hover {
     background-color: #f0f0f0;
