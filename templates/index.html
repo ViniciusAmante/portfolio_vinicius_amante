@@ -2,9 +2,10 @@
 {% block content %}
 <section id="page-home" class="section active">
             <div class="home-container">
-                <div class="home-photo-placeholder">
-                    Ftoto
-                </div>
+                <img src="{{ url_for('static', filename='img/perfil.jpeg') }}" 
+                        alt="Foto de Perfil" 
+                        class="home-photo-placeholder" 
+                        style="object-fit: cover;">
                 
                 <div class="home-text">
                     <h1>Olá, eu sou Vinícius Amante</h1>
