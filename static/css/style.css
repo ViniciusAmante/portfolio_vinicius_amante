@@ -99,8 +99,8 @@ h2.section-title::after{
     border: 1px solid #4d0dfd;
 }
 .btn-clean-primary:hover {
-    background-color: #642bff;
-    border-color: #642bff;
+    background-color: #7745ff;
+    border-color: #7745ff;
     transform: translateY(-2px);
 }
 .btn-clean-outline {
