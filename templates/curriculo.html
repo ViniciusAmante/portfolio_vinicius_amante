@@ -1,30 +1,31 @@
 {% extends 'layout.html' %}
 {% block content %}
-<section id="page-curriculo" class="section">
+<section id="page-curriculo">
         <h2 class="section-title">Currículo</h2>
             <h3 class="mb-4">Educação</h3>
             <div class="portfolio-card">
                 <div class="list-item">
                     <div class="list-item-logo-placeholder">
-                        <i class="bi bi-bank fs-3"></i>
+                        <img src="{{ url_for('static', filename='img/logofatec.png') }}" alt="Logo Fatec" class="img-fluid">
                     </div>
                     <div class="list-item-content">
                         <h5>Análise e Desenvolvimento de Sistemas</h5>
-                        <p class="fw-bold">[Nome da Instituição]</p>
-                        <p class="text-muted">Início: [Mês/Ano] - Conclusão: [Mês/Ano]</p>
-                        <p>Descrição breve do curso ou conquistas relevantes.</p>
+                        <p class="fw-bold">Fatec</p>
+                        <p class="text-muted">Início: 2025-2 - Conclusão: 2028-2</p>
+                        <p>Tenho a oportunidade de aprender a desenvolver na prática por meio do API, no qual, em grupo, temos que resolver problemas reais de instituições </p>
                     </div>
                 </div>
             </div>
         <div class="portfolio-card">
             <div class="list-item">
                 <div class="list-item-logo-placeholder">
-                    <i class="bi bi-braces fs-3"></i>
+                    <img src="{{ url_for('static', filename='img/logoprog2.png') }}" alt="Logo Prog" class="img-fluid">
                 </div>
                 <div class="list-item-content">
-                    <h5>Curso Técnico de [Nome do Curso]</h5>
-                    <p class="fw-bold">[Nome da Instituição]</p>
-                    <p class="text-muted">[Ano de Conclusão]</p>
+                    <h5>Ensino Médio</h5>
+                    <p class="fw-bold">Colégio Progressão</p>
+                    <p class="text-muted">2024</p>
+                    <p>Durante o Ensino Médio, pude completar o Intinerário Formativo de 'Games e Modelagem de Design" na Imago de Taubaté</p>
                 </div>
             </div>
         </div>
