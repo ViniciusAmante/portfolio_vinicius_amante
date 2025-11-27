@@ -1,14 +1,14 @@
 {% extends 'layout.html' %}
 {% block content %}
 <section id="page-habilidades" class="section">
-            <h2 class="section-title">Habilidades</h2>
+            <h2 class="section-title">Hard Skills</h2>
             <p class="text-center text-muted mb-5">
-                Estas são as tecnologias e ferramentas com as quais tenho trabalhado.
+                Estas são algumas ferramentas e tecnologias das quais utilizo ou tenho conhecimento:
             </p>
             
             <div class="skills-grid">
                 <div class="skill-item">
-                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-python-plain colored" style="font-size: 3rem; color: #ffffff;"></i>
                     <p>Python</p>
                 </div>
                 <div class="skill-item">
@@ -28,12 +28,18 @@
                     <p>Flask</p>
                 </div>
                 <div class="skill-item">
-                    <i class="devicon-jira-plain colored" style="font-size: 3rem; color: #1741ff;"></i>
-                    <p>Jira</p>
+                    <img src="{{ url_for('static', filename='img/cursor_ai.png') }}" 
+                        alt="Cursor" 
+                        style="width: 50px; height: 50px; object-fit: contain;">
+                    <p>Cursor AI</p>
                 </div>
                 <div class="skill-item">
                     <i class="devicon-git-plain colored" style="font-size: 3rem; color: #ff4040;"></i>
                     <p>Git</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-mysql-plain colored" style="font-size: 3rem; color: #ffffff;"></i>
+                    <p>MySQL</p>
                 </div>
                 <div class="skill-item">
                     <i class="devicon-github-original"></i>
@@ -44,7 +50,7 @@
                     <p>VS Code</p>
                 </div>
                 <div class="skill-item">
-                    <i class="devicon-figma-plain colored"></i>
+                    <i class="devicon-figma-plain colored" style="font-size: 3rem; color: #000000;"></i>
                     <p>Figma</p>
                 </div>
                 <div class="skill-item">
@@ -56,17 +62,61 @@
                     <p>Vercel</p>
                 </div>
                 <div class="skill-item">
-                    <i class="devicon-linux-plain" style="font-size: 3rem; color: #ffffff;"></i>
-                    <p>Linux</p>
-                </div>
-                <div class="skill-item">
                     <i class="bi bi-amazon" style="font-size: 3rem; color: #ffffff;"></i>
                     <p>AWS</p>
                 </div>
                 <div class="skill-item">
+                    <i class="devicon-linux-plain" style="font-size: 3rem; color: #000000;"></i>
+                    <p>Linux</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-unrealengine-original colored" style="font-size: 3rem; color: #ffffff;"></i>
+                    <p>Unreal Engine</p>
+                </div>
+                                <div class="skill-item">
                     <i class="bi bi-arrows-move" style="font-size: 3rem; color: #ffffff;"></i>
                     <p>UML</p>
                 </div>
+                <div class="skill-item">
+                    <img src="{{ url_for('static', filename='img/zbrush_logo.svg') }}" 
+                        alt="ZBrush" 
+                        style="width: 50px; height: 50px; object-fit: contain;">
+                    <p>ZBrush</p>
+                </div>
+                <div class="skill-item">
+                    <img src="{{ url_for('static', filename='img/astah.png') }}" 
+                        alt="Astah" 
+                        style="width: 50px; height: 50px; object-fit: contain;">
+                    <p>Astah</p>
+                </div>
+                <div class="skill-item">
+                    <i class="bi bi-microsoft" style="font-size: 3rem; color: #364aff;"></i>
+                    <p>Office 365</p>
+                </div>
+                                <div class="skill-item">
+                    <i class="bi bi-file-earmark-excel-fill" style="font-size: 3rem; color: #1D6F42;"></i>
+                    <p>Excel (Básico)</p>
+                </div>
+                                <div class="skill-item">
+                    <i class="bi bi-file-earmark-word-fill" style="font-size: 3rem; color: #364aff;"></i>
+                    <p>Word</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-jira-plain colored" style="font-size: 3rem; color: #1741ff;"></i>
+                    <p>Jira</p>
+                </div>
+            </div>
+            
+            
+            <h2 class="section-title">Soft Skills</h2>
+            <p class="text-center text-muted mb-5">
+                Estas são algumas ferramentas e tecnologias das quais utilizo ou tenho conhecimento:
+            </p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="devicon-python-plain colored" style="font-size: 3rem; color: #ffffff;"></i>
+                    <p>Python</p>
             </div>
 </section>
 {% endblock %}

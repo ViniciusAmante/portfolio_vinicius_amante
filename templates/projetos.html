@@ -6,10 +6,10 @@
                 <div class="col-md-6">
                     <div class="portfolio-card h-100">
                         <h5>Aprendizado por Projetos Integrados- 2025/2</h5>
-                        <p class="text-muted">Nesse primeiro semestre, nós tivemos o desafio de um cliente interno, que se baseava no desenvolvimento de uma plataforma de aprendizado sobre a metodologia Scrum. Conquistei as seguintes habilidades: Figma, UX/UI Design, Git/GitHub, Metodologias Ágeis (Scrum), Jira e FrontEnd Tools. </p>
-                        <a href="https://plataforma-scrum-api-2025-2.vercel.app" target="_blank" class="btn btn-clean btn-clean-outline">
-                            Ver Plataforma <i class="bi bi-box-arrow-up-right ms-1"></i>
-                        </a>
+                        <p class="text-muted">Foi baseado em uma necessidade de um cliente interno, que buscava o desenvolvimento de uma plataforma educacional sobre a metodologia Scrum.</p>
+                        <button type="button" class="btn btn-clean btn-clean-primary" data-bs-toggle="modal" data-bs-target="#modalApiFaculdade">
+                            Ver Detalhes <i class="bi bi-eye ms-1"></i>
+                        </button>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -23,4 +23,60 @@
                 </div>
             </div>
 </section>
+<div class="modal fade" id="modalApiFaculdade" tabindex="-1" aria-labelledby="modalApiLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- modal-lg deixa mais largo -->
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalApiLabel">
+            <i class="bi bi-server me-2"></i> Detalhes do Projeto: Plataforma Scrum
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+            No segundo semestre de 2025, o desafio que o nosso time recebeu foi o de desenvolver uma plataforma de treinamento online, com foco no framework ágil Scrum, para os funcionários de uma empresa.
+        Para poder ensinar sobre o Scrum, nosso time se baseou na própria metodologia para desempenhar os trabalhos. Sendo assim, fiz parte do Team Dev desse projeto, cuidando mais centradamente do Design e da UI/UX da plataforma. Dessa maneira, como o intuito era criar uma plataforma
+        educacional interativa, prática e acessível, eu estudei os mais diferentes conceitos de Web Design e experiência do usuário na plataforma, com objetivo de criar um modelo de alta-fidelidade que fosse intuitivo, leve e prático para o cliente.
+        </p>
+        <img src="{{ url_for('static', filename='img/figma_print.png') }}" alt="Print Figma" class="img-fluid">
+
+        <hr>
+
+        <h6 class="fw-bold mb-3"><i class="bi bi-bullseye text-primary"></i> Objetivos Principais:</h6>
+        <ul class="list-unstyled">
+            <li class="mb-2">
+                <i class="bi bi-check2 text-success me-2"></i> 
+                <strong>Transformar o ensino:</strong> Com interatividade e didática, além da prática do Módulo de "Simulado Scrum".
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check2 text-success me-2"></i>
+                <strong>Padronização:</strong> Garantimos a padronização dos processos dos funcionárioas através de uma experiência de aprendizado acessível.
+            </li>
+             <li class="mb-2">
+                <i class="bi bi-check2 text-success me-2"></i>
+                <strong>Acessibilidade:</strong>  O material está disponível a qualquer hora e em qualquer lugar, incluindo a integração do VLibras.
+            </li>
+        </ul>
+
+        <h6 class="fw-bold mt-4 mb-3"><i class="bi bi-tools text-primary"></i> Tecnologias que estudei e apliquei:</h6>
+        <div class="d-flex gap-2 flex-wrap">
+            <span class="badge bg-primary bg-opacity-10 text-primary">UI/UX Design</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">Figma</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">HTML</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">CSS</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">Jira</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">Vercel</span>
+            <span class="badge bg-primary bg-opacity-10 text-primary">GitHub</span>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://plataforma-scrum-api-2025-2.vercel.app/" target="_blank" class="btn btn-clean btn-clean-primary">Ver plataforma</a>
+      </div>
+
+    </div>
+  </div>
+</div>
 {% endblock %}
