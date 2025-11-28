@@ -89,7 +89,8 @@ section {
 .btn-clean-primary {
     background-color: #4d0dfd;
     color: #f0f0f0;
-    border: 5px solid #4d0dfd;
+    border: 1px solid #4d0dfd;
+    margin-bottom: 5px;
 }
 .btn-clean-primary:hover {
     background-color: #4d0dfd;
