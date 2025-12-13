@@ -327,3 +327,31 @@ p, li, span {
     letter-spacing: 0.5px;
     padding: 0.5em 0.8em;
 }
+.soft-skill-card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.soft-skill-card h5 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.soft-skill-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.soft-skill-card:hover {
+    transform: translateY(-5px); 
+    border-color: #0d6efd;
+    box-shadow: 0 10px 20px rgba(13, 110, 253, 0.1);
+}
